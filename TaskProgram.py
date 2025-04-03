@@ -21,13 +21,15 @@ print(s.count("h")) #counting number of h in string
 
 li = [3,6,9,12,15]
 print(li)
+li.append(18)
+print(li)
 
-b = bytes([65])
-print(b)
+# b = bytes([65])
+# print(b)
 
-c = None
-print(c)
-print(type(c))
+# c = None
+# print(c)
+# print(type(c))
 # y
 # print(type(y))
 # print(y) y is not defined

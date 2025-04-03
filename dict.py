@@ -7,3 +7,8 @@ print(student["age"])
 # {'name': 'mohiddin', 'age': 23}
 # mohiddin
 # 23
+
+d = {"pulsar":"bike","bmw":"car","audi":"car"}
+
+for x in d.keys():
+    print(d[x])
