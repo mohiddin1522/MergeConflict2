@@ -1,0 +1,12 @@
+def checkAge(age):
+    if age < 18:
+        raise ValueError("Age must be 18 or older")
+    else:
+        print("You are eligible to vote")
+        
+try:
+    age = int(input("Enter your age: "))
+    checkAge(age)
+
+except ValueError as e:
+    print(f"Invalid input: {e}")
