@@ -7,3 +7,9 @@ myDB = mysql.connector.connect(
 )
 
 print(myDB)
+
+cursor = myDB.cursor()
+
+cursor.execute("select * from pydb.marks")
+for row in cursor:
+    print(row)
